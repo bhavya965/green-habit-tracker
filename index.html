@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green Habit Tracker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #e6f2e6;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 1em;
+      width: 100%;
+      text-align: center;
+    }
+    main {
+      padding: 2em;
+      max-width: 600px;
+      width: 100%;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
+    }
+    .habit {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1em;
+    }
+    button {
+      background-color: #66bb6a;
+      color: white;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .summary {
+      margin-top: 2em;
+      padding: 1em;
+      background: #f1f8e9;
+      border-left: 5px solid #558b2f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Green Habit Tracker 🌱</h1>
+  </header>
+  <main>
+    <h2>Select Your Eco-friendly Habit Today:</h2>
+    <div id="habits"></div>
+    <div class="summary">
+      <h3>Today's Impact:</h3>
+      <p>CO₂ Saved: <span id="co2">0</span> g</p>
+      <p>Water Saved: <span id="water">0</span> L</p>
+      <p>Waste Diverted: <span id="waste">0</span> g</p>
+    </div>
+  </main>
+
+  <script>
+    const habits = [
+      { name: "Used bicycle", co2: 1500, water: 0, waste: 0 },
+      { name: "Skipped plastic bottle", co2: 80, water: 0.5, waste: 50 },
+      { name: "Plant-based meal", co2: 600, water: 200, waste: 0 },
+      { name: "Used public transport", co2: 1000, water: 0, waste: 0 },
+      { name: "No AC for the day", co2: 2000, water: 0, waste: 0 },
+    ];
+
+    let totalCo2 = 0, totalWater = 0, totalWaste = 0;
+
+    const habitContainer = document.getElementById("habits");
+
+    habits.forEach(habit => {
+      const div = document.createElement("div");
+      div.className = "habit";
+      div.innerHTML = `
+        <span>${habit.name}</span>
+        <button onclick='logHabit(${JSON.stringify(habit)})'>Log</button>
+      `;
+      habitContainer.appendChild(div);
+    });
+
+    function logHabit(habit) {
+      totalCo2 += habit.co2;
+      totalWater += habit.water;
+      totalWaste += habit.waste;
+
+      document.getElementById("co2").innerText = totalCo2;
+      document.getElementById("water").innerText = totalWater.toFixed(1);
+      document.getElementById("waste").innerText = totalWaste;
+    }
+  </script>
+</body>
+</html>
