@@ -2,7 +2,7 @@
 🌱 “Track your green actions. See your impact. Build a better planet.”
 A sustainability-focused digital tool built to promote eco-conscious behavior through habit tracking, impact visualization, and community motivation — created under the 1M1B Future Leaders Program.
 
-##**🧭 Project Overview**
+**🧭 Project Overview**
 Many people want to reduce their carbon footprint by adopting green habits — like using public transport, carrying reusable bags, or eating plant-based meals. But without a system to log, track, and stay motivated, these habits often fade away.
 
 This project offers a solution in the form of a web app that acts as a personal green habit tracker. It makes sustainability measurable, motivating, and even fun!
