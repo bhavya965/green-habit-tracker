@@ -1,4 +1,4 @@
-**🌿 Green Habit Tracker – Digital Diary for Climate Action**
+## **🌿 Green Habit Tracker – Digital Diary for Climate Action**
 
 “Track your green actions. See your impact. Build a better planet.”
 
@@ -6,16 +6,16 @@ The Green Habit Tracker is a digital tool designed to help individuals adopt and
 
 This project was created under the 1M1B Future Leaders Program by a passionate team aiming to promote sustainability in everyday life.
 
-**👥 Group Name:** Future Green Leaders
+## **👥 Group Name:** Future Green Leaders
 
 
-**Team Members:**
+## **Team Members:**
 
 Koribilli Bhavya Sri
 
 Pediredla Puruhoothika Sri Lakshmi
 
-**🌱 Project Overview**
+## **🌱 Project Overview**
 
 Many people wish to live more sustainably, but without a system for daily reflection, reminders, or measurable feedback, motivation fades quickly. Our app solves this by allowing users to:
 
@@ -27,12 +27,12 @@ View their progress through simple charts and streaks
 
 Stay motivated with badges, impact cards, and peer invitations
 
-**🔗 Live Streamlit App**
+## **🔗 Live Streamlit App**
 
 **Try the app here:**
 https://green-habit-app-a8j4bcmmgxustxguxzyvfk.streamlit.app/
 
-**🛠️ Technologies Used**
+## **🛠️ Technologies Used**
 
 Streamlit (Python-based UI)
 
@@ -42,7 +42,7 @@ Matplotlib for charts
 
 Online deployment via Streamlit Cloud
 
-**🎯 SDGs Aligned With:**
+## **🎯 SDGs Aligned With:**
 
 SDG 13 – Climate Action
 
@@ -52,7 +52,7 @@ SDG 4 – Quality Education
 
 SDG 11 – Sustainable Cities and Communities
 
-**🌍 Impact Metrics Tracked**
+## **🌍 Impact Metrics Tracked**
 
 Metric tons of CO₂ reduced
 
