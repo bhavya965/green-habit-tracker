@@ -1,62 +1,59 @@
 **🌿 Green Habit Tracker – Digital Diary for Climate Action**
-🌱 “Track your green actions. See your impact. Build a better planet.”
-A sustainability-focused digital tool built to promote eco-conscious behavior through habit tracking, impact visualization, and community motivation — created under the 1M1B Future Leaders Program.
+“Track your green actions. See your impact. Build a better planet.”
 
-**🧭 Project Overview**
-Many people want to reduce their carbon footprint by adopting green habits — like using public transport, carrying reusable bags, or eating plant-based meals. But without a system to log, track, and stay motivated, these habits often fade away.
+The Green Habit Tracker is a digital tool designed to help individuals adopt and maintain eco-friendly habits by tracking their actions, calculating their environmental impact, and encouraging sustained behavior change through motivation and gamification.
 
-This project offers a solution in the form of a web app that acts as a personal green habit tracker. It makes sustainability measurable, motivating, and even fun!
+This project was created under the 1M1B Future Leaders Program by a passionate team aiming to promote sustainability in everyday life.
 
-✅ Core Features
-🌍 Daily Habit Logging
-Log eco-friendly actions like skipping plastic, turning off unused lights, or eating vegetarian meals.
+**👥 Group Name:** Future Green Leaders
+**Team Members:**
 
-📊 Real-Time Impact Calculation
-Each action shows real-time savings in CO₂, water, or waste — backed by verified data sources (UNEP, EPA, India’s Green Census).
+Koribilli Bhavya Sri
 
-📈 Progress Visualization
-Track your streaks, view weekly/monthly savings, and build your personal sustainability graph.
+Pediredla Puruhoothika Sri Lakshmi
 
-🏅 Gamification Layer
-Earn digital badges, collect impact points, and share your achievements on social media to inspire others.
+**🌱 Project Overview**
+Many people wish to live more sustainably, but without a system for daily reflection, reminders, or measurable feedback, motivation fades quickly. Our app solves this by allowing users to:
 
-🤝 Peer Motivation & Sharing
-Invite friends, form groups, and participate in green habit challenges together.
+Log daily green habits (like carrying a reusable bottle or skipping plastic)
 
-💡 Innovation & Impact
-This tool empowers users with awareness + action, bridging the gap between intention and habit. With enough users, the tracker could:
+Track their CO₂, water, and waste savings in real-time
 
-Support green campuses and corporates in ESG reporting
+View their progress through simple charts and streaks
 
-Encourage youth competitions or pledges
+Stay motivated with badges, impact cards, and peer invitations
 
-Enable municipal or school-level sustainability dashboards
+**🔗 Live Streamlit App**
+**Try the app here:**
+https://green-habit-app-a8j4bcmmgxustxguxzyvfk.streamlit.app/
 
-🎯 SDG Alignment
-Goal Number	SDG Goal Title
-13 🌎	Climate Action
-12 🛒	Responsible Consumption & Production
-11 🏙️	Sustainable Cities & Communities
-4 📘	Quality Environmental Education
+**🛠️ Technologies Used**
+Streamlit (Python-based UI)
 
-🛠️ Tools & Tech Stack
-Frontend: HTML, CSS, JavaScript / Streamlit
+Pandas for data handling
 
-App Builders: Thunkable, Bubble, Flutter (low-code options)
+Matplotlib for charts
 
-Backend: Google Sheets / Firebase (for basic databases)
+Online deployment via Streamlit Cloud
 
-Data Sources: UNEP, EPA, IPCC Reports, Indian MOEFCC
+**🎯 SDGs Aligned With:**
+SDG 13 – Climate Action
 
-📊 Example Green Habits & Impact
-Habit	CO₂ Saved / Day	Water Saved	Waste Reduced
-Turned off AC for 2 hours	1.2 kg	—	—
-Skipped plastic bag	0.3 kg	—	10g
-Used public transport	2.1 kg	—	—
-Ate plant-based meal	1.5 kg	600 L	—
-Carried reusable bottle	0.2 kg	—	25g
+SDG 12 – Responsible Consumption and Production
 
-🧾 Final Message
-"A small habit repeated daily becomes a green revolution." 🌎💚
+SDG 4 – Quality Education
 
-This tracker empowers individuals to become climate champions — one action at a time. The goal is not perfection, but progress and participation.
+SDG 11 – Sustainable Cities and Communities
+
+**🌍 Impact Metrics Tracked**
+Metric tons of CO₂ reduced
+
+Liters of water conserved
+
+Kilograms of waste diverted
+
+Each based on credible emissions/conservation data sources (UNEP, EPA, Indian Census).
+
+**📝 Final Note**
+"Every small habit matters."
+The Green Habit Tracker empowers individuals, especially youth, to make conscious environmental choices. With every habit logged, we move closer to a more sustainable and aware world.
