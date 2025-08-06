@@ -1,4 +1,4 @@
-## **🌿 Green Habit Tracker – Digital Diary for Climate Action**
+# **🌿 Green Habit Tracker – Digital Diary for Climate Action**
 
 “Track your green actions. See your impact. Build a better planet.”
 
