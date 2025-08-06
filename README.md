@@ -1,4 +1,6 @@
-**#🌿 Green Habit Tracker – Digital Diary for Climate Action**
+**🌿 Green Habit Tracker – Digital Diary for Climate Action**
+
+
 🌱 “Track your green actions. See your impact. Build a better planet.”
 A sustainability-focused digital tool built to promote eco-conscious behavior through habit tracking, impact visualization, and community motivation — created under the 1M1B Future Leaders Program.
 
